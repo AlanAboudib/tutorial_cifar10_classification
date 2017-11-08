@@ -1,28 +1,78 @@
-name: dl
+name: tensorflow
 channels:
+- anaconda
 - defaults
 dependencies:
-- certifi=2016.2.28=py36_0
-- openssl=1.0.2l=0
-- pip=9.0.1=py36_1
-- python=3.6.2=0
-- readline=6.2=2
-- setuptools=36.4.0=py36_1
-- sqlite=3.13.0=0
-- tk=8.5.18=0
-- wheel=0.29.0=py36_0
-- xz=5.2.3=0
-- zlib=1.2.11=0
+- backports=1.0=py35hd471ac7_1
+- backports.weakref=1.0rc1=py35_0
+- bleach=1.5.0=py35_0
+- cudatoolkit=8.0=3
+- cudnn=6.0.21=cuda8.0_0
+- html5lib=0.9999999=py35_0
+- libgcc=7.2.0=h69d50b8_2
+- libprotobuf=3.4.0=0
+- markdown=2.6.9=py35_0
+- protobuf=3.4.0=py35_0
+- tensorflow-gpu=1.3.0=0
+- tensorflow-gpu-base=1.3.0=py35cuda8.0cudnn6.0_1
+- tensorflow-tensorboard=0.1.5=py35_0
+- werkzeug=0.12.2=py35hbfc1ea6_0
+- ca-certificates=2017.08.26=h1d4fec5_0
+- certifi=2017.7.27.1=py35h19f42a1_0
+- cycler=0.10.0=py35hc4d5149_0
+- dbus=1.10.22=h3b5a359_0
+- expat=2.2.4=h6ea4f2b_2
+- fontconfig=2.11.1=6
+- freetype=2.5.5=2
+- glib=2.53.6=h56f7bfe_1
+- gst-plugins-base=1.12.2=he3457e5_0
+- gstreamer=1.12.2=h4f93127_0
+- hdf5=1.8.17=2
+- icu=54.1=0
+- intel-openmp=2018.0.0=h15fc484_7
+- jbig=2.1=hdba287a_0
+- jpeg=8d=2
+- libedit=3.1=heed3624_0
+- libffi=3.2.1=h4deb6c0_3
+- libgcc-ng=7.2.0=h7cc24e2_2
+- libgfortran=3.0.0=1
+- libgfortran-ng=7.2.0=h9f7466a_2
+- libiconv=1.15=h63c8f33_5
+- libpng=1.6.32=hda9c8bc_2
+- libstdcxx-ng=7.2.0=h7a57d05_2
+- libtiff=4.0.6=2
+- libxcb=1.12=h84ff03f_3
+- libxml2=2.9.4=0
+- matplotlib=2.0.2=np112py35_0
+- mkl=2017.0.4=h4c4d0af_0
+- ncurses=6.0=h06874d7_1
+- numpy=1.12.1=py35_0
+- olefile=0.44=py35h2c86149_0
+- opencv=3.1.0=np112py35_1
+- openssl=1.0.2l=h077ae2c_5
+- pandas=0.20.3=py35hd2a53da_2
+- pcre=8.41=hc71a17e_0
+- pillow=3.4.2=py35_0
+- pip=9.0.1=py35h7e7da9d_4
+- pyparsing=2.2.0=py35h041ed72_1
+- pyqt=5.6.0=py35h0e41ada_5
+- python=3.5.4=h0b4c808_22
+- python-dateutil=2.6.1=py35h90d5b31_1
+- pytz=2017.2=py35h9225bff_1
+- qt=5.6.2=0
+- readline=7.0=hac23ff0_3
+- scikit-learn=0.19.0=np112py35_0
+- scipy=0.19.1=np112py35_0
+- setuptools=36.5.0=py35ha8c1747_0
+- sip=4.18.1=py35h9eaea60_2
+- six=1.11.0=py35h423b573_1
+- sqlite=3.20.1=h6d8b0f3_1
+- tk=8.6.7=h5979e9b_1
+- tqdm=4.19.4=py35h68e51d2_0
+- wheel=0.29.0=py35h601ca99_1
+- xz=5.2.3=h2bcbf08_1
+- zlib=1.2.11=hfbfcf68_1
 - pip:
-  - bleach==1.5.0
-  - html5lib==0.9999999
-  - markdown==2.6.9
-  - numpy==1.13.3
-  - protobuf==3.4.0
-  - six==1.11.0
-  - tensorflow-gpu==1.3.0
-  - tensorflow-tensorboard==0.1.8
-  - tqdm==4.19.2
-  - werkzeug==0.12.2
-prefix: /home/alan/.conda/envs/dl
+  - tensorflow==1.3.0
+prefix: /home/alan/.conda/envs/tensorflow
 
